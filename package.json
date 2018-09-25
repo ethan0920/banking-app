@@ -1,0 +1,32 @@
+{
+  "name": "django",
+  "version": "0.0.1",
+  "description": "Banking demo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --config config/webpack.config.js --mode development",
+    "start": "node server.js",
+    "init": "appstrap init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethan0920/banking-app.git"
+  },
+  "author": "Ethan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethan0920/banking-app/issues"
+  },
+  "homepage": "https://github.com/ethan0920/banking-app#readme",
+  "devDependencies": {
+    "@pixelprodotco/appstrap": "^0.4.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "express": "^4.16.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1"
+  }
+}
